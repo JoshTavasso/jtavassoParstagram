@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		316097F0221B744200ED7206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316097EF221B744200ED7206 /* AppDelegate.swift */; };
+		316097F2221B744200ED7206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316097F1221B744200ED7206 /* ViewController.swift */; };
+		316097F5221B744200ED7206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316097F3221B744200ED7206 /* Main.storyboard */; };
+		316097F7221B744300ED7206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316097F6221B744300ED7206 /* Assets.xcassets */; };
+		316097FA221B744300ED7206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316097F8221B744300ED7206 /* LaunchScreen.storyboard */; };
+		31609805221B744300ED7206 /* jtavassoParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31609804221B744300ED7206 /* jtavassoParstagramTests.swift */; };
+		31609810221B744300ED7206 /* jtavassoParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3160980F221B744300ED7206 /* jtavassoParstagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31609801221B744300ED7206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 316097E4221B744200ED7206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 316097EB221B744200ED7206;
+			remoteInfo = jtavassoParstagram;
+		};
+		3160980C221B744300ED7206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 316097E4221B744200ED7206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 316097EB221B744200ED7206;
+			remoteInfo = jtavassoParstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		316097EC221B744200ED7206 /* jtavassoParstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jtavassoParstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		316097EF221B744200ED7206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		316097F1221B744200ED7206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		316097F4221B744200ED7206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		316097F6221B744300ED7206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		316097F9221B744300ED7206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		316097FB221B744300ED7206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31609800221B744300ED7206 /* jtavassoParstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jtavassoParstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31609804221B744300ED7206 /* jtavassoParstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jtavassoParstagramTests.swift; sourceTree = "<group>"; };
+		31609806221B744300ED7206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3160980B221B744300ED7206 /* jtavassoParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jtavassoParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3160980F221B744300ED7206 /* jtavassoParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jtavassoParstagramUITests.swift; sourceTree = "<group>"; };
+		31609811221B744300ED7206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		316097E9221B744200ED7206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316097FD221B744300ED7206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31609808221B744300ED7206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		316097E3221B744200ED7206 = {
+			isa = PBXGroup;
+			children = (
+				316097EE221B744200ED7206 /* jtavassoParstagram */,
+				31609803221B744300ED7206 /* jtavassoParstagramTests */,
+				3160980E221B744300ED7206 /* jtavassoParstagramUITests */,
+				316097ED221B744200ED7206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		316097ED221B744200ED7206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				316097EC221B744200ED7206 /* jtavassoParstagram.app */,
+				31609800221B744300ED7206 /* jtavassoParstagramTests.xctest */,
+				3160980B221B744300ED7206 /* jtavassoParstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		316097EE221B744200ED7206 /* jtavassoParstagram */ = {
+			isa = PBXGroup;
+			children = (
+				316097EF221B744200ED7206 /* AppDelegate.swift */,
+				316097F1221B744200ED7206 /* ViewController.swift */,
+				316097F3221B744200ED7206 /* Main.storyboard */,
+				316097F6221B744300ED7206 /* Assets.xcassets */,
+				316097F8221B744300ED7206 /* LaunchScreen.storyboard */,
+				316097FB221B744300ED7206 /* Info.plist */,
+			);
+			path = jtavassoParstagram;
+			sourceTree = "<group>";
+		};
+		31609803221B744300ED7206 /* jtavassoParstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				31609804221B744300ED7206 /* jtavassoParstagramTests.swift */,
+				31609806221B744300ED7206 /* Info.plist */,
+			);
+			path = jtavassoParstagramTests;
+			sourceTree = "<group>";
+		};
+		3160980E221B744300ED7206 /* jtavassoParstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3160980F221B744300ED7206 /* jtavassoParstagramUITests.swift */,
+				31609811221B744300ED7206 /* Info.plist */,
+			);
+			path = jtavassoParstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		316097EB221B744200ED7206 /* jtavassoParstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31609814221B744300ED7206 /* Build configuration list for PBXNativeTarget "jtavassoParstagram" */;
+			buildPhases = (
+				316097E8221B744200ED7206 /* Sources */,
+				316097E9221B744200ED7206 /* Frameworks */,
+				316097EA221B744200ED7206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jtavassoParstagram;
+			productName = jtavassoParstagram;
+			productReference = 316097EC221B744200ED7206 /* jtavassoParstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		316097FF221B744300ED7206 /* jtavassoParstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31609817221B744300ED7206 /* Build configuration list for PBXNativeTarget "jtavassoParstagramTests" */;
+			buildPhases = (
+				316097FC221B744300ED7206 /* Sources */,
+				316097FD221B744300ED7206 /* Frameworks */,
+				316097FE221B744300ED7206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31609802221B744300ED7206 /* PBXTargetDependency */,
+			);
+			name = jtavassoParstagramTests;
+			productName = jtavassoParstagramTests;
+			productReference = 31609800221B744300ED7206 /* jtavassoParstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3160980A221B744300ED7206 /* jtavassoParstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3160981A221B744300ED7206 /* Build configuration list for PBXNativeTarget "jtavassoParstagramUITests" */;
+			buildPhases = (
+				31609807221B744300ED7206 /* Sources */,
+				31609808221B744300ED7206 /* Frameworks */,
+				31609809221B744300ED7206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3160980D221B744300ED7206 /* PBXTargetDependency */,
+			);
+			name = jtavassoParstagramUITests;
+			productName = jtavassoParstagramUITests;
+			productReference = 3160980B221B744300ED7206 /* jtavassoParstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		316097E4221B744200ED7206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JoshTav;
+				TargetAttributes = {
+					316097EB221B744200ED7206 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					316097FF221B744300ED7206 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 316097EB221B744200ED7206;
+					};
+					3160980A221B744300ED7206 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 316097EB221B744200ED7206;
+					};
+				};
+			};
+			buildConfigurationList = 316097E7221B744200ED7206 /* Build configuration list for PBXProject "jtavassoParstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 316097E3221B744200ED7206;
+			productRefGroup = 316097ED221B744200ED7206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				316097EB221B744200ED7206 /* jtavassoParstagram */,
+				316097FF221B744300ED7206 /* jtavassoParstagramTests */,
+				3160980A221B744300ED7206 /* jtavassoParstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		316097EA221B744200ED7206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316097FA221B744300ED7206 /* LaunchScreen.storyboard in Resources */,
+				316097F7221B744300ED7206 /* Assets.xcassets in Resources */,
+				316097F5221B744200ED7206 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316097FE221B744300ED7206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31609809221B744300ED7206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		316097E8221B744200ED7206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316097F2221B744200ED7206 /* ViewController.swift in Sources */,
+				316097F0221B744200ED7206 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316097FC221B744300ED7206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31609805221B744300ED7206 /* jtavassoParstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31609807221B744300ED7206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31609810221B744300ED7206 /* jtavassoParstagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31609802221B744300ED7206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 316097EB221B744200ED7206 /* jtavassoParstagram */;
+			targetProxy = 31609801221B744300ED7206 /* PBXContainerItemProxy */;
+		};
+		3160980D221B744300ED7206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 316097EB221B744200ED7206 /* jtavassoParstagram */;
+			targetProxy = 3160980C221B744300ED7206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		316097F3221B744200ED7206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316097F4221B744200ED7206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		316097F8221B744300ED7206 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316097F9221B744300ED7206 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31609812221B744300ED7206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31609813221B744300ED7206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31609815221B744300ED7206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PAB7PJP8Z;
+				INFOPLIST_FILE = jtavassoParstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.jtavassoParstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31609816221B744300ED7206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PAB7PJP8Z;
+				INFOPLIST_FILE = jtavassoParstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.jtavassoParstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31609818221B744300ED7206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PAB7PJP8Z;
+				INFOPLIST_FILE = jtavassoParstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.jtavassoParstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jtavassoParstagram.app/jtavassoParstagram";
+			};
+			name = Debug;
+		};
+		31609819221B744300ED7206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PAB7PJP8Z;
+				INFOPLIST_FILE = jtavassoParstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.jtavassoParstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jtavassoParstagram.app/jtavassoParstagram";
+			};
+			name = Release;
+		};
+		3160981B221B744300ED7206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PAB7PJP8Z;
+				INFOPLIST_FILE = jtavassoParstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.jtavassoParstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jtavassoParstagram;
+			};
+			name = Debug;
+		};
+		3160981C221B744300ED7206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PAB7PJP8Z;
+				INFOPLIST_FILE = jtavassoParstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.jtavassoParstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jtavassoParstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		316097E7221B744200ED7206 /* Build configuration list for PBXProject "jtavassoParstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31609812221B744300ED7206 /* Debug */,
+				31609813221B744300ED7206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31609814221B744300ED7206 /* Build configuration list for PBXNativeTarget "jtavassoParstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31609815221B744300ED7206 /* Debug */,
+				31609816221B744300ED7206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31609817221B744300ED7206 /* Build configuration list for PBXNativeTarget "jtavassoParstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31609818221B744300ED7206 /* Debug */,
+				31609819221B744300ED7206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3160981A221B744300ED7206 /* Build configuration list for PBXNativeTarget "jtavassoParstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3160981B221B744300ED7206 /* Debug */,
+				3160981C221B744300ED7206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 316097E4221B744200ED7206 /* Project object */;
+}
