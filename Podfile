@@ -6,6 +6,8 @@ target 'jtavassoParstagram' do
   use_frameworks!
 
   # Pods for jtavassoParstagram
+  pod "Parse"
+  pod "AlamofireImage"
 
   target 'jtavassoParstagramTests' do
     inherit! :search_paths

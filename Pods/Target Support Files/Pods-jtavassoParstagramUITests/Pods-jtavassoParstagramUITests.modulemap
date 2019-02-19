@@ -1,0 +1,6 @@
+framework module Pods_jtavassoParstagramUITests {
+  umbrella header "Pods-jtavassoParstagramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
