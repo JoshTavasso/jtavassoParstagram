@@ -16,6 +16,8 @@
 		3160981E221B864B00ED7206 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3160981D221B864B00ED7206 /* LoginViewController.swift */; };
 		31609820221B865600ED7206 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3160981F221B865600ED7206 /* FeedViewController.swift */; };
 		31609822221B8F7000ED7206 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31609821221B8F7000ED7206 /* CameraViewController.swift */; };
+		31609824221BCEF300ED7206 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31609823221BCEF300ED7206 /* PostCell.swift */; };
+		31688306221BF72F00935BE0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31688305221BF72F00935BE0 /* Default-568h@2x.png */; };
 		8496C4F7F5CA33C24D9501D5 /* Pods_jtavassoParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAFD14BC94172068335BF65 /* Pods_jtavassoParstagramTests.framework */; };
 		AA7584C3F0BE441FC325DFC6 /* Pods_jtavassoParstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0036D35DF7811BDEEFCF2F84 /* Pods_jtavassoParstagram.framework */; };
 		BDE9F5B62DC3F26EB1E43EAC /* Pods_jtavassoParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12EBC8CBCE1406DC04B972 /* Pods_jtavassoParstagramUITests.framework */; };
@@ -56,6 +58,8 @@
 		3160981D221B864B00ED7206 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3160981F221B865600ED7206 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		31609821221B8F7000ED7206 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		31609823221BCEF300ED7206 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		31688305221BF72F00935BE0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B12EBC8CBCE1406DC04B972 /* Pods_jtavassoParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jtavassoParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1BB0C592C69D372D2AF4C5 /* Pods-jtavassoParstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jtavassoParstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-jtavassoParstagramUITests/Pods-jtavassoParstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		871008251DF2736AD7EDBD57 /* Pods-jtavassoParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jtavassoParstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-jtavassoParstagramTests/Pods-jtavassoParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		316097E3221B744200ED7206 = {
 			isa = PBXGroup;
 			children = (
+				31688305221BF72F00935BE0 /* Default-568h@2x.png */,
 				316097EE221B744200ED7206 /* jtavassoParstagram */,
 				31609803221B744300ED7206 /* jtavassoParstagramTests */,
 				3160980E221B744300ED7206 /* jtavassoParstagramUITests */,
@@ -120,6 +125,7 @@
 			children = (
 				316097EF221B744200ED7206 /* AppDelegate.swift */,
 				316097F3221B744200ED7206 /* Main.storyboard */,
+				31609823221BCEF300ED7206 /* PostCell.swift */,
 				31609821221B8F7000ED7206 /* CameraViewController.swift */,
 				316097F6221B744300ED7206 /* Assets.xcassets */,
 				316097F8221B744300ED7206 /* LaunchScreen.storyboard */,
@@ -280,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				316097FA221B744300ED7206 /* LaunchScreen.storyboard in Resources */,
+				31688306221BF72F00935BE0 /* Default-568h@2x.png in Resources */,
 				316097F7221B744300ED7206 /* Assets.xcassets in Resources */,
 				316097F5221B744200ED7206 /* Main.storyboard in Resources */,
 			);
@@ -407,6 +414,7 @@
 				31609822221B8F7000ED7206 /* CameraViewController.swift in Sources */,
 				31609820221B865600ED7206 /* FeedViewController.swift in Sources */,
 				316097F0221B744200ED7206 /* AppDelegate.swift in Sources */,
+				31609824221BCEF300ED7206 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
