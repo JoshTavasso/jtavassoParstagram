@@ -24,3 +24,16 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/03bU7a6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Notes
+
+In addition to the implemented user stories, I also implemented some of my own features:
+
+- Constraints on all views
+- Functionality on my own iPhone device (as shown in the walkthrough)
+- Alert boxes when an error occurs during sign-in and sign-out options
+- Logout button
+- Cancel button on the submission view
+- User is able to choose whether they want to post pictures from their camera or their photo library
+
+
