@@ -103,19 +103,18 @@
             <objects>
                 <viewController id="Ppi-LX-sai" customClass="FeedViewController" customModule="jtavassoParstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vhh-wS-krw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zvn-Af-aF8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zvn-Af-aF8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="427" id="3m5-x1-S5E" customClass="PostCell" customModule="jtavassoParstagram" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="427"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="427"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3m5-x1-S5E" id="Xmm-06-MAN">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="426.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="426.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wJj-uB-BOU">
@@ -161,9 +160,20 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zvn-Af-aF8" firstAttribute="bottom" secondItem="1xF-cR-wCC" secondAttribute="bottom" id="M64-QN-zat"/>
+                            <constraint firstItem="zvn-Af-aF8" firstAttribute="top" secondItem="vhh-wS-krw" secondAttribute="top" id="Qf7-oQ-Ite"/>
+                            <constraint firstItem="zvn-Af-aF8" firstAttribute="leading" secondItem="1xF-cR-wCC" secondAttribute="leading" id="Ue6-F7-XyO"/>
+                            <constraint firstItem="zvn-Af-aF8" firstAttribute="trailing" secondItem="1xF-cR-wCC" secondAttribute="trailing" id="soN-Re-obJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1xF-cR-wCC"/>
                     </view>
                     <navigationItem key="navigationItem" id="MIt-sm-Qvx">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="0XJ-7M-WTb">
+                            <connections>
+                                <action selector="logout:" destination="Ppi-LX-sai" id="zhD-gD-oNX"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="hcI-b5-XH1">
                             <connections>
                                 <segue destination="GdN-nf-xHM" kind="presentation" id="2Fu-ae-Mxa"/>
@@ -176,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GVG-dH-NXY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2101.449275362319" y="5.3571428571428568"/>
+            <point key="canvasLocation" x="2100" y="4.9475262368815596"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="Ywc-xS-VH9">
@@ -187,20 +197,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="W03-1h-WKj">
-                                <rect key="frame" x="25" y="34" width="325" height="375"/>
+                                <rect key="frame" x="25" y="89" width="325" height="375"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Rk9-0u-aYb" appends="YES" id="bhq-sr-3zV"/>
                                 </connections>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEg-Ws-f1f">
-                                <rect key="frame" x="33" y="434" width="308" height="30"/>
+                                <rect key="frame" x="34" y="488" width="307" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZa-ZN-fVP">
-                                <rect key="frame" x="129" y="490" width="117" height="36"/>
+                                <rect key="frame" x="129" y="544" width="117" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -209,18 +219,34 @@
                                     <action selector="submitButton:" destination="GdN-nf-xHM" eventType="touchUpInside" id="Kcb-Za-vAP"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="945-52-maT">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <navigationItem id="hf6-PJ-G3A">
+                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="xwx-jo-SYn">
+                                            <connections>
+                                                <action selector="cancel:" destination="GdN-nf-xHM" id="zfE-P6-UOz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="FZa-ZN-fVP" firstAttribute="top" secondItem="KEg-Ws-f1f" secondAttribute="bottom" constant="26" id="0Sx-Db-c8m"/>
-                            <constraint firstItem="KEg-Ws-f1f" firstAttribute="leading" secondItem="uwb-o2-IuZ" secondAttribute="leading" constant="33" id="CP0-wf-AM3"/>
-                            <constraint firstItem="uwb-o2-IuZ" firstAttribute="trailing" secondItem="W03-1h-WKj" secondAttribute="trailing" constant="25" id="RLO-v6-rzz"/>
-                            <constraint firstItem="uwb-o2-IuZ" firstAttribute="trailing" secondItem="FZa-ZN-fVP" secondAttribute="trailing" constant="129" id="Se8-3p-3cA"/>
-                            <constraint firstItem="uwb-o2-IuZ" firstAttribute="trailing" secondItem="KEg-Ws-f1f" secondAttribute="trailing" constant="34" id="gHs-KA-nb9"/>
-                            <constraint firstItem="FZa-ZN-fVP" firstAttribute="leading" secondItem="uwb-o2-IuZ" secondAttribute="leading" constant="129" id="na9-Fs-Z1N"/>
-                            <constraint firstItem="W03-1h-WKj" firstAttribute="leading" secondItem="uwb-o2-IuZ" secondAttribute="leading" constant="25" id="qTB-bF-Xkn"/>
-                            <constraint firstItem="W03-1h-WKj" firstAttribute="top" secondItem="uwb-o2-IuZ" secondAttribute="top" constant="14" id="rPh-T6-J9F"/>
-                            <constraint firstItem="KEg-Ws-f1f" firstAttribute="top" secondItem="W03-1h-WKj" secondAttribute="bottom" constant="25" id="s6W-MF-RWk"/>
+                            <constraint firstItem="945-52-maT" firstAttribute="top" secondItem="xgW-Nr-Gyp" secondAttribute="top" constant="20" id="35G-dU-2LY"/>
+                            <constraint firstItem="FZa-ZN-fVP" firstAttribute="top" secondItem="KEg-Ws-f1f" secondAttribute="bottom" constant="26" id="3Pi-RB-d4b"/>
+                            <constraint firstItem="W03-1h-WKj" firstAttribute="top" secondItem="945-52-maT" secondAttribute="bottom" constant="25" id="41o-sT-5Qe"/>
+                            <constraint firstItem="945-52-maT" firstAttribute="leading" secondItem="uwb-o2-IuZ" secondAttribute="leading" id="50m-vf-X2B"/>
+                            <constraint firstItem="KEg-Ws-f1f" firstAttribute="top" secondItem="W03-1h-WKj" secondAttribute="bottom" constant="24" id="DCE-T9-fDf"/>
+                            <constraint firstItem="uwb-o2-IuZ" firstAttribute="trailing" secondItem="W03-1h-WKj" secondAttribute="trailing" constant="25" id="GAT-st-Nj2"/>
+                            <constraint firstItem="W03-1h-WKj" firstAttribute="leading" secondItem="uwb-o2-IuZ" secondAttribute="leading" constant="25" id="IFb-vW-9g4"/>
+                            <constraint firstItem="945-52-maT" firstAttribute="trailing" secondItem="uwb-o2-IuZ" secondAttribute="trailing" id="Kq0-qO-JxT"/>
+                            <constraint firstItem="uwb-o2-IuZ" firstAttribute="trailing" secondItem="KEg-Ws-f1f" secondAttribute="trailing" constant="34" id="c62-Wx-x5v"/>
+                            <constraint firstItem="KEg-Ws-f1f" firstAttribute="leading" secondItem="uwb-o2-IuZ" secondAttribute="leading" constant="34" id="fV4-UY-TTr"/>
+                            <constraint firstItem="FZa-ZN-fVP" firstAttribute="leading" secondItem="uwb-o2-IuZ" secondAttribute="leading" constant="129" id="lhd-nZ-Tgd"/>
+                            <constraint firstItem="uwb-o2-IuZ" firstAttribute="trailing" secondItem="FZa-ZN-fVP" secondAttribute="trailing" constant="129" id="yeO-NN-0qR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uwb-o2-IuZ"/>
                     </view>

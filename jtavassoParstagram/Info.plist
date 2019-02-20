@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>NSCameraUsageDescription</key>
-    <string>Camera usage description</string>
+    <string>Parstagram would like to access your camera</string>
     <key>NSPhotoLibraryUsageDescription</key>
-    <string>Photo usage description</string>
+    <string>Parstagram would like to access your photos</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

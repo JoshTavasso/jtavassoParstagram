@@ -26,6 +26,9 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func logout(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -48,11 +51,10 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
         
-        
         let post = posts[posts.count - indexPath.row - 1]
         
         let user = post["author"] as! PFUser
-        cell.usernameLabel.text = user.username
+        cell.usernameLabel.text = user.username! + ": "
         
         cell.captionLabel.text = post["caption"] as? String
         

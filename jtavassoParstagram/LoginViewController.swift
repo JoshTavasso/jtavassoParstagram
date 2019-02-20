@@ -28,7 +28,13 @@ class LoginViewController: UIViewController {
             if user != nil {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             } else {
-                print("Error: \(String(describing: error?.localizedDescription))")
+                // print("Error: \(String(describing: error?.localizedDescription))")
+                // Alert user that they inputted an incorrect username or password:
+                let alert = UIAlertController(title: "Incorrect Username or Password",
+                                              message: "Please Try Again",
+                                              preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default))
+                self.present(alert, animated: true)
             }
         }
         
@@ -48,7 +54,12 @@ class LoginViewController: UIViewController {
             if success {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             } else {
-                print("Error: \(String(describing: error?.localizedDescription))")
+                // print("Error: \(String(describing: error?.localizedDescription))")
+                let alert = UIAlertController(title: "Error occured when signing up",
+                                              message: "Please make sure you are signing up with a unique username and password",
+                                              preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default))
+                self.present(alert, animated: true)
             }
         }
     }
