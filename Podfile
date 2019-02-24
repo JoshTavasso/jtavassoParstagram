@@ -8,6 +8,7 @@ target 'jtavassoParstagram' do
   # Pods for jtavassoParstagram
   pod "Parse"
   pod "AlamofireImage"
+  pod "MessageInputBar"
 
   target 'jtavassoParstagramTests' do
     inherit! :search_paths

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "58D57292B9EB4236DA517EB91449F5D6"
+               BlueprintIdentifier = "908D9757A4EB591BFB70A77C5588ED2E"
                BuildableName = "Pods_jtavassoParstagram.framework"
                BlueprintName = "Pods-jtavassoParstagram"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "58D57292B9EB4236DA517EB91449F5D6"
+            BlueprintIdentifier = "908D9757A4EB591BFB70A77C5588ED2E"
             BuildableName = "Pods_jtavassoParstagram.framework"
             BlueprintName = "Pods-jtavassoParstagram"
             ReferencedContainer = "container:Pods.xcodeproj">
